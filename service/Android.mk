@@ -9,7 +9,7 @@ include $(BUILD_HEADER_LIBRARY)
 # Build libagm
 include $(CLEAR_VARS)
 
-LOCAL_MODULE        := libagm
+LOCAL_MODULE        := libagm-qti
 LOCAL_MODULE_OWNER  := qti
 LOCAL_MODULE_TAGS   := optional
 LOCAL_VENDOR_MODULE := true

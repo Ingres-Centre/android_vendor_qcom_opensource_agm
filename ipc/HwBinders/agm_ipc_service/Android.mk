@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE        := vendor.qti.hardware.AGMIPC@1.0-impl
+LOCAL_MODULE        := vendor.qti.hardware.AGMIPC@1.0-impl-qti
 LOCAL_MODULE_OWNER  := qti
 LOCAL_VENDOR_MODULE := true
 
@@ -35,7 +35,7 @@ endif
 ifneq ($(strip $(AUDIO_FEATURE_ENABLED_AGM_HIDL)),true)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE               := vendor.qti.hardware.AGMIPC@1.0-service
+LOCAL_MODULE               := vendor.qti.hardware.AGMIPC@1.0-service-qti
 LOCAL_INIT_RC              := vendor.qti.hardware.AGMIPC@1.0-service.rc
 LOCAL_VENDOR_MODULE        := true
 LOCAL_MODULE_RELATIVE_PATH := hw

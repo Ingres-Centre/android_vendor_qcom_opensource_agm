@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 # Build libagm_pcm_plugin
 include $(CLEAR_VARS)
 
-LOCAL_MODULE        := libagm_pcm_plugin
+LOCAL_MODULE        := libagm_pcm_plugin-qti
 LOCAL_MODULE_OWNER  := qti
 LOCAL_MODULE_TAGS   := optional
 LOCAL_VENDOR_MODULE := true
@@ -46,7 +46,7 @@ include $(BUILD_SHARED_LIBRARY)
 # Build libagm_mixer_plugin
 include $(CLEAR_VARS)
 
-LOCAL_MODULE        := libagm_mixer_plugin
+LOCAL_MODULE        := libagm_mixer_plugin-qti
 LOCAL_MODULE_OWNER  := qti
 LOCAL_MODULE_TAGS   := optional
 LOCAL_VENDOR_MODULE := true
@@ -87,7 +87,7 @@ include $(BUILD_SHARED_LIBRARY)
 # Build libagm_compress_plugin
 include $(CLEAR_VARS)
 
-LOCAL_MODULE        := libagm_compress_plugin
+LOCAL_MODULE        := libagm_compress_plugin-qti
 LOCAL_MODULE_OWNER  := qti
 LOCAL_MODULE_TAGS   := optional
 LOCAL_VENDOR_MODULE := true

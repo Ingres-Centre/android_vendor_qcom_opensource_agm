@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE        := libagmmixer
+LOCAL_MODULE        := libagmmixer-qti
 LOCAL_MODULE_OWNER  := qti
 LOCAL_MODULE_TAGS   := optional
 LOCAL_VENDOR_MODULE := true
@@ -33,7 +33,7 @@ include $(BUILD_SHARED_LIBRARY)
 # Build agmplay
 include $(CLEAR_VARS)
 
-LOCAL_MODULE        := agmplay
+LOCAL_MODULE        := agmplay-qti
 LOCAL_MODULE_OWNER  := qti
 LOCAL_MODULE_TAGS   := optional
 LOCAL_VENDOR_MODULE := true
@@ -63,7 +63,7 @@ LOCAL_SHARED_LIBRARIES += \
 include $(BUILD_EXECUTABLE)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE        := agmcap
+LOCAL_MODULE        := agmcap-qti
 LOCAL_MODULE_OWNER  := qti
 LOCAL_MODULE_TAGS   := optional
 LOCAL_VENDOR_MODULE := true
@@ -124,7 +124,7 @@ include $(BUILD_EXECUTABLE)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE        := agmcompressplay
+LOCAL_MODULE        := agmcompressplay-qti
 LOCAL_MODULE_OWNER  := qti
 LOCAL_MODULE_TAGS   := optional
 LOCAL_VENDOR_MODULE := true
